@@ -1,0 +1,14 @@
+.item{
+    background: #08235e;
+    color: white;
+    scroll-behavior: smooth;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.item:hover{
+    background: transparent;
+    
+    border-color:  #0EA5E9;
+    cursor: default;
+    transition:1s;
+}

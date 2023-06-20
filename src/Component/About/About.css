@@ -1,0 +1,198 @@
+header {
+  height: 100vh;
+  padding-top: 3rem;
+  overflow: hidden;
+}
+
+.header_container {
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+/* ============CTA=========== */
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+/* ========HEADER SOCIALS========== */
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .8rem;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  bottom: 8rem;
+
+}
+
+.header_socials::after {
+  content: '';
+  width: 2px;
+  height: 2.5rem;
+  background: var(--color-primary);
+
+}
+
+/* =========me========= */
+.me{
+  background: #e0dfcd;
+  width: 24rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 2rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 1rem 2.5rem 0rem 2.5rem;  
+
+}
+
+
+.scroll-down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: .9rem;
+
+}
+.my_name{
+  color: darkgray;
+  position: relative;
+}
+
+.my_name::before {
+  content: 'Haniful Islam';
+  position: absolute; 
+  top: 0;
+  /* left: 0; */
+  text-align: center;
+  color:whitesmoke;
+  animation: typing 4s ease infinite;
+}
+
+.letter-sp{
+    letter-spacing:  5px;
+}
+.fontStyle{
+    font-style: oblique;
+}
+
+@keyframes typing{
+  0%{
+      content:'R|';
+  }
+  4%{
+      content:'RE|';
+  }
+  8%{
+      content:'REJ|';
+  }
+  12%{
+      content:'REJA|';
+  }
+  16%{
+      content:'REJAU|';
+  }
+  20%{
+      content:'REJAUL|';
+  }
+  24%{
+      content:'REJAUL |';
+  }
+  28%{
+      content:'REJAUL I |';
+  }
+  32%{
+      content:'REJAUL IS|';
+  }
+  36%{
+      content:'REJAUL ISL|';
+  }
+  40%{
+      content:'REJAUL ISLAM|';
+  }
+  44%{
+      content:'REJAUL ISLAM|';
+  }
+  64%,
+  83%{
+      content:'REJAUL ISLAM|';
+  }
+  84%{
+      content:'REJAUL ISLA|';
+  }
+  85%{
+      content:'REJAUL ISL|';
+  }
+  86%{
+      content:'REJAUL IS|';
+  }
+  87%{
+      content:'REJAUL I|';
+  }
+  88%{
+      content:'REJAUL |';
+  }
+  89%{
+      content:'REJAU|';
+  }
+  90%{
+      content:'REJA|';
+  }
+  91%{
+      content:'REJ|';
+  }
+  92%{
+      content:'RE|';
+  }
+  93%{
+      content:'R|';
+  }
+  94%{
+      content:'';
+  }
+  95%{
+      content:'';
+  }
+  100%{
+      content:'';
+  }
+}
+
+
+
+/*====== MEDIA QUERIES (MEDIUM DEVICE)====== */
+@media screen and (max-width: 1024px) {
+ 
+  .me {
+      height: 24rem;
+
+  }
+}
+
+/*====== MEDIA QUERIES (SAMLL DEVICE)====== */
+@media screen and (max-width: 600px) {
+  header {
+      height: 100vh;
+  }
+
+  .header_socials,
+  .scroll-down {
+      display: none;
+  }
+  
+  .me {
+      padding: 0;
+      background: none;
+      width: 18rem;
+      margin: 2rem;
+  }
+
+}
