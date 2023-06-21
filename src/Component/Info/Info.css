@@ -62,9 +62,12 @@
 }
 
 .about_content p{
-    margin: 1.5rem 0 2.6rem;
     color: var(--color-light);
 }
+
+
+
+
 /*====== MEDIA QUERIES (MEDIUM DEVICE)====== */
 @media screen and (max-width:1024px) {
     .about_container{

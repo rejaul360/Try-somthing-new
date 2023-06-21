@@ -1,0 +1,46 @@
+.footer_container{
+    border-top: 1px solid var(--color-light);
+    background: #041E56;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-bg-variant);
+    padding: 10px;
+    position: relative;
+}
+.footer_arrow{
+    background: var(--color-bg);
+    padding: .3rem .3rem 0;
+    border-radius: .2rem;
+}
+.footer_uparrow_icon{
+    font-size: 1.5rem;
+}
+.footer_name{
+    color:var(--color-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/*====== MEDIA QUERIES (SAMLL DEVICE)====== */
+@media screen and (max-width:600px) {
+    .footer{
+        flex-direction: column;
+        gap: .5rem;
+        
+    }
+    .footer_uparrow_icon{
+        position: absolute;
+        right: 1.5rem;
+        bottom: 3rem;
+        background: var(--color-bg);
+    
+    }
+    .footer p{
+        font-size: 14px;
+        text-align: center;
+    }
+  
+  }

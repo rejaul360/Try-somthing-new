@@ -6,6 +6,9 @@ import Dashboard from './Dashboard/Dashboard'
 import Info from './Component/Info/Info'
 import SkillBar from './Component/SkillBar/SkillBar'
 import Projects from './Component/Projects/Projects'
+import Desing from './Component/Desing/Desing'
+import Contact from './Component/Contact/Contact'
+import Footer from './Component/Footer/Footer'
 function App() {
   return (
     <>
@@ -26,6 +29,9 @@ function App() {
           <Technology></Technology>
           <SkillBar></SkillBar>
           <Projects></Projects>
+          <Desing></Desing>
+          {/* <Contact></Contact> */}
+          <Footer></Footer>
         </div>
       </div>
 

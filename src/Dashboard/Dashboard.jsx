@@ -10,7 +10,7 @@ import HeaderSocial from '../Component/HeaderSocial/HeaderSocial';
 const Dashboard = () => {
 
     return (
-        <div id='home' className='shadow-2xl border-r border-sky-500 h-auto'>
+        <div  className='shadow-2xl border-r border-sky-500 ' style={{height: '100vh'}}>
 
             <div className='flex  h-auto '>
                 <div className='rounded-full h-64 w-full object-cover flex items-center justify-center'>
@@ -29,11 +29,11 @@ const Dashboard = () => {
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
                     >
-                        <h4 className='text-xl fontStyle'>Hello! I am</h4>
+                        <h4 className='text-xl fontStyle text-white'>Hello! I am</h4>
                         <h1 style={{ fontStyle: "initial" }} className="my_name text-2xl">
                             REJAUL ISLAM
                         </h1>
-                        <h5 className="text-light text-xl letter-sp">Frontend Developer</h5>
+                        <h5 className="text-light text-xl letter-sp text-white">Frontend Developer</h5>
                         <Resume></Resume>
                     </motion.div>
                 </div>
@@ -47,7 +47,8 @@ const Dashboard = () => {
                             <li><a href="#technology">Technology</a></li>
                             <li><a href="#skills">Skills</a></li>
                             <li><a href="#project">Projects</a></li>
-                            <li className='m-0'><a href="#contact">Contact</a></li>
+                            {/* <li><a href="#project"></a></li> */}
+                            {/* <li className='m-0'><a href="#contact">Contact</a></li> */}
 
                         </div>
                     </ul>

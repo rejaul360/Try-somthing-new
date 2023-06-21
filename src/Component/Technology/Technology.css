@@ -55,11 +55,8 @@
     }
     .experience_container > div{
         width:80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-    .experience_content{
         padding: 1rem;
+        margin: 0 auto;
     }
   }
   

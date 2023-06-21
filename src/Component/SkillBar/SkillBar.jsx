@@ -28,7 +28,7 @@ const SkillBar = () => {
     <div id='skills' className="box max-w-7xl mx-auto mt-8">
       <h1>Skills Bar</h1>
  
-    <div className='flex gap-8 p-8'>
+    <div className='flex gap-8 p-10'>
     <div className='w-1/2' data-aos="fade-right">
     {skills.map((skill, index) => (
         <div className="skillbox" key={index}>

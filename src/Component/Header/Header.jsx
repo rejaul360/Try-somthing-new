@@ -7,12 +7,12 @@ import logo from '../../assets/images/logo.png'
 const Header = () => {
     return (
 
-        <div className="max-w-7xl mx-auto py-2 px-2">
+        <div id='home' className="max-w-7xl mx-auto py-2 px-2 ">
         <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown text-center py-4 text-white text-xl">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                <svg
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
                   fill="none"
@@ -25,7 +25,7 @@ const Header = () => {
                     strokeWidth="2"
                     d="M4 6h16M4 12h8m-8 6h16"
                   />
-                </svg>
+                </svg> */}
               </label>
               {/* <ul
                 tabIndex={0}

@@ -8,8 +8,8 @@ import { motion } from 'framer-motion';
 
 const Technology = () => {
   return (
-    <section   className="max-w-7xl mx-auto  px-2 h-auto  mb-8 py-8" id="technology">
-      <h5 className="text-xl text-center text-white py-6">Experience</h5>
+    <section   className="max-w-7xl mx-auto   h-auto  mb-8 p-10" id="technology">
+      <h5 className="text-xl text-center text-white py-6">Technology</h5>
 
       <div className="container experience_container mt-4">
         <div className="frontend_development p-10 rounded-3xl mb-3">
