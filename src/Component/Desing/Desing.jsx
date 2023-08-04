@@ -16,9 +16,9 @@ const Desing = () => {
         <div>
             <div id='project' className='md:p-10 mb-6'>
 
-            <p className='text-center text-xl mb-12 text-white'>Desing </p>
+            <p className='text-center text-xl mb-12 text-white'>Only Desing </p>
 
-            <div className='px-8 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ' >
+            <div className='px-4 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ' >
                 {
                     projects.map(project => <ShowDesing
                         key={project.id}

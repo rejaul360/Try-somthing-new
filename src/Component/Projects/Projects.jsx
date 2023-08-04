@@ -14,13 +14,13 @@ const Projects = () => {
         })
     },[])
     return (
-        <div id='project' className=' md:p-10'>
+        <div id='project' className=' md:p-10 mb-8'>
             <h1 className="text-xl py-2 text-white">
                 My Projects
             </h1>
             <p className='text-center mb-12 text-white'>Desing & Development</p>
 
-            <div className='px-8 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ' >
+            <div className='px-4 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ' >
                 {
                     projects.map(project => <ShowProject
                     key={project.id}

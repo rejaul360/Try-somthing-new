@@ -37,7 +37,7 @@ const Info = () => {
             <article className='about_card text-white' data-aos="zoom-in" data-aos-duration="1500">
               <a className='about_icon' href=''><AiOutlineProject /></a>
               <h5>Projects</h5>
-              <small>40+ Projects Completed</small>
+              <small>45+ Projects Completed</small>
             </article>
           </div>
           <div className='text-white'>
@@ -45,7 +45,7 @@ const Info = () => {
             <p className='my-2 text-white' data-aos="fade-left" data-aos-duration="1500"> Passing Year : 2022 </p>
             <p className='my-2 text-white' data-aos="fade-left" data-aos-duration="1500">CGPA : 3.83</p>
           </div>
-          <a href="https://github.com/rejaul360" target='_blank' className='btn btn-primary' data-aos="fade-left">Read More</a>
+          <a href="https://github.com/rejaul360" target='_blank' className='btn btn-outline btn-info' data-aos="fade-left">Read More</a>
         </div>
       </div>
     </section>

@@ -75,7 +75,7 @@ const Header = () => {
               transition={{ duration: 0.5 }}
             >
               <a className="normal-case ">
-                <img className='h-14 w-14 rounded-full logo' src={logo} alt="" />
+                <img className='h-14 w-14 rounded-full  logo' src={logo} alt="" />
               </a>
             </motion.div>
           </div>

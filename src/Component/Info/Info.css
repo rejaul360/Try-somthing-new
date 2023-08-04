@@ -16,8 +16,6 @@
 }
 
 .about_me  img{
-    /* width: 20rem; */
-    /* height: 22rem; */
     border-radius: 2rem;
     overflow: hidden;
     transform:rotate(10deg) ;
@@ -25,6 +23,20 @@
 }
 .about_me img:hover{
     transform: rotate(0);
+
+}
+
+.about_cards .about_card{
+    background: #041c50;
+    color: white;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.about_cards > .about_card:hover{
+    background: transparent;
+    border-color:  #0EA5E9;
+    cursor: default;
+    transition:1s;
 }
 
 .about_cards{
@@ -42,11 +54,12 @@
    
     
 }
-.about_card:hover{
+/* .about_card:hover{
     background: transparent;
     border-color:var(--color-bg-variant);
     cursor: default;
-}
+    
+} */
 .about_card h5{
     font-size: .95rem;
 }

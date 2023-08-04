@@ -9,13 +9,12 @@ import Projects from './Component/Projects/Projects'
 import Desing from './Component/Desing/Desing'
 import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer'
+import Service from './Component/Service/Service'
 function App() {
   return (
-    <>
-
-
+    <div className='overflow-hidden'>
       <div className="flex flex-wrap ">
-        <div className="w-full md:w-1/4 ">
+        <div className="w-full md:w-1/4  border-r border-sky-500 ">
           <div className='md:fixed md:w-1/4'>
           <Dashboard></Dashboard>
           </div>
@@ -30,13 +29,17 @@ function App() {
           <SkillBar></SkillBar>
           <Projects></Projects>
           <Desing></Desing>
-          {/* <Contact></Contact> */}
+
+          <Service></Service>
+
+          <Contact></Contact>
           <Footer></Footer>
+          
         </div>
       </div>
 
 
-    </>
+    </div>
   )
 }
 

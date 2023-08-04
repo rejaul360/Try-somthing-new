@@ -1,0 +1,12 @@
+.about_cards .about_card{
+    background: #041c50;
+    color: white;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.about_cards > .about_card:hover{
+    background: transparent;
+    border-color:  #0EA5E9;
+    cursor: default;
+    transition:1s;
+}

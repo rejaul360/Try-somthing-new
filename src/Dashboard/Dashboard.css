@@ -1,0 +1,12 @@
+.style_set{
+    height: 100vh;
+
+}
+
+
+  @media (max-width: 576px) { 
+    .style_set{
+        height: 100vh;
+        margin-bottom: 10px;
+    }
+  }
